@@ -1,0 +1,79 @@
+.seasonalFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    /* background-color: rgb(15, 12, 12); */
+    /* justify-content: center; */
+    gap: 20px;
+    padding: 40px 20px ;
+}
+.seasonalFlex div{
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+
+    
+    
+}@media (min-width:541px){
+    .seasonalFlex div{
+        height: 60vh;
+    }
+}
+
+.seasonalFlex div h3{
+    font-weight: bolder;
+    z-index: 300;
+    color: green;
+}
+.seasonalFlex div h4{
+    color: red;
+    font-size: 1.3rem;
+    font-weight: bold;
+    z-index: 300px;
+
+}
+.seasonalFlex div:nth-child(1){
+    background-image: url(../images/grayimg1.jpg);
+
+    background-size: cover;
+}
+.seasonalFlex div:nth-child(2){
+    background-image: url(../images/ladygrey4.jpg);
+    background-size: cover;
+
+}
+
+.extraBanner{
+    background-image: url(../images/glassdark.jpg);
+
+    background-size: cover;
+       width: 100%;
+       height: 80vh;
+       border: 1px solid black;
+       margin: 0 auto;
+       display: flex;
+       flex-direction: column;
+       gap: 30px;
+       justify-content: center;
+}
+@media (max-width:539px) {
+    .extraBanner{
+        height: 50vh;
+    }
+}
+.extraBanner h3{
+    font-weight: bolder;
+    z-index: 300;
+    color: green;
+}
+.extraBanner h4{
+    color: red;
+    font-size: 1.3rem;
+    font-weight: bold;
+    z-index: 300px;
+
+}

@@ -1,0 +1,156 @@
+.App {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+} 
+html{
+  scroll-behavior:smooth;
+}
+.initialFlex{
+  display:grid;
+  justify-content: center;
+  gap: 15px ;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.b{
+  background-size: cover;
+  background-color: rebeccapurple;
+}
+.marquee{
+  height: 15vh;
+  color:black;
+  padding-top: 4px  ;
+  padding-bottom: 4px  ;
+
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+
+.numberOfProductAvailable{
+  color: red;
+  font-weight: bold;
+}
+
+/* footer style */
+
+.footer{
+  display: flex;
+  /* align-items: top; */
+  justify-content: space-between;
+  text-align: left;
+  background-color: white;
+  padding: 30px 40px ;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+@media (max-width:767px) {
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    justify-content: center;
+    gap: 25px;
+  }
+}
+.footer li{
+  list-style-type: none;
+  line-height: 25px;
+}
+.footer a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  color: rgb(53, 51, 51);
+}
+.footer h3{
+  color: black;
+  margin-bottom: 10px ;
+}
+
+.footer img{
+  width: 45px;
+}
+
+/* .whatsApp{
+  position: absolute;
+  right: 0px;
+  top: 500px;
+  width: 10%;
+  cursor: pointer;
+} */
+.copy{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+/* off 2 styling */
+.service{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid rgb(173, 167, 173);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.service h1{
+  color: white;
+  font-size: 2.8rem;
+}
+.service h3{
+  color: white;
+  font-size: 1.6rem;
+}
+.service .off2{
+  color: red;
+}
+
+
+ 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
