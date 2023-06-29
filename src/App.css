@@ -77,13 +77,13 @@ html{
   width: 45px;
 }
 
-/* .whatsApp{
-  position: absolute;
-  right: 0px;
-  top: 500px;
-  width: 10%;
+.whatsApp{
+  position: fixed;
+  right: 20px;
+  top: 550px;
+  width: 50px;
   cursor: pointer;
-} */
+}
 .copy{
   text-decoration: none;
   color: black;

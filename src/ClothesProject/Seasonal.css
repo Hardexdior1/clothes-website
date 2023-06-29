@@ -36,7 +36,7 @@
     z-index: 300px;
 
 }
-.seasonalFlex div:nth-child(1){
+/* .seasonalFlex div:nth-child(1){
     background-image: url(../images/grayimg1.jpg);
 
     background-size: cover;
@@ -45,7 +45,7 @@
     background-image: url(../images/ladygrey4.jpg);
     background-size: cover;
 
-}
+} */
 
 .extraBanner{
     background-image: url(../images/glassdark.jpg);

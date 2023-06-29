@@ -1,11 +1,19 @@
 import React, { useRef, useState } from "react";
 import "./Banner.css";
-import lacoste from "../images/img1.jpg";
-import adidas from "../images/img2.jpg";
-import gucci from "../images/img1.jpg";
-import nike from "../images/img2.jpg";
 
-import Link from "react-dom";
+
+import gucciBg from '../images/guccibackground.jpeg'
+// import nike from "../images/img2.jpg";
+
+
+import nike1 from '../images/nikeshort1.webp'
+import nike2 from '../images/nikeshort2.webp'
+import nike3 from '../images/nikeshort3.webp'
+import nike4 from '../images/lacosteshort2.webp'
+// import versace 
+
+import removeIcon from '../images/removeicon.png'
+
 // the link is not importing so i have to use anchor tag for the link
 
 // nothing gives me joy like attaching and eventListener to window 
@@ -115,9 +123,7 @@ const Banner = () => {
                 toggleNav.current.classList.remove("showNav");
                 setShowMenu(true);
               }}>
-              <div></div>
-              <div></div>
-              <div></div>
+             <img className="remove" src={removeIcon} alt="removeNavbar" />
             </div>
           )}
         </nav>
@@ -144,7 +150,7 @@ const Banner = () => {
                   <div class="slide">
                     <img
                       className="slide-img"
-                      src={lacoste}
+                      src={nike1}
                       loading="lazy"
                       alt="img"
                     />
@@ -152,7 +158,7 @@ const Banner = () => {
                   <div className="slide">
                     <img
                       className="slide-img"
-                      src={adidas}
+                      src={nike2}
                       loading="lazy"
                       alt="img"
                     />
@@ -160,7 +166,7 @@ const Banner = () => {
                   <div className="slide">
                     <img
                       classN="slide-img"
-                      src={nike}
+                      src={nike4}
                       loading="lazy"
                       alt="img"
                     />
@@ -168,7 +174,7 @@ const Banner = () => {
                   <div className="slide">
                     <img
                       className="slide-img"
-                      src={gucci}
+                      src={nike3}
                       loading="lazy"
                       alt="img"
                     />

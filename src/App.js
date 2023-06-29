@@ -87,13 +87,14 @@ function App() {
         </h3>
       </section>
 
-
       <SeasonalSale />
 
       <Footer />
+      <a href="">REFRESH</a>
 
-      {/* <img src={whatsApp} alt="icon"  className="whatsApp"/> */}
-
+      <a href="https://wa.link/a1ugnd">
+        <img src={whatsApp} alt="icon" className="whatsApp" />
+      </a>
       {/* <a href="">REFRSEh</a> */}
     </div>
   );

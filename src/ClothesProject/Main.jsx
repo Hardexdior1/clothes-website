@@ -17,6 +17,8 @@ const Main = ({
   normalPrice3,
   subNormalPrice1,
   subNormalPrice2,
+lowMoney
+
 }) => {
   const [mainImg1, setMainImg] = useState(mainImg);
   const [showDefaultImg, setShowDefaultImg] = useState(false);
@@ -25,6 +27,7 @@ const Main = ({
   const [productPrice2, setProductPrice2] = useState(price2);
   const [showThirtyToTenDollarsProduct, setShowThirtyToTenDollarsProduct] =
     useState(false);
+    console.log(lowMoney);
   const [
     mainImgForThirtyDollarsDownWardProducts,
     setMainImgForThirtyDollarsDownWardProducts,
@@ -165,7 +168,7 @@ const Main = ({
         )}
         <div>
           <div>
-            <div className="btn-carrier">
+           {lowMoney? <div className="btn-carrier">
               <button
                 onClick={() => {
                   console.log(price);
@@ -185,7 +188,7 @@ const Main = ({
               ) : (
                 ""
               )}
-            </div>
+            </div>:''}
           </div>
           <p>{description}</p>
         </div>
